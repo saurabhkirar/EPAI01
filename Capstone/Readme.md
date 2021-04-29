@@ -6,12 +6,13 @@ and making a modular and a high performing scalable code.
 
 **Project Decription and assumptions.**
 You are going to build a Python app that can:
-read a CSV file that has NAME, SCORE and EMAIL (10+, use the fact that admin@theschoolofai.in and ad.min@theschoolofai.in are the same email ids, so you can use your own for testing)
-loads this image (Links to an external site.) (you can use OpenCV, PIL, or anything else you want)
+1. read a CSV file that has NAME, SCORE and EMAIL (10+, use the fact that admin@theschoolofai.in and ad.min@theschoolofai.in are the same email ids, so you can use your own for testing).
+
+2. loads this image (Links to an external site.) (you can use OpenCV, PIL, or anything else you want)
 copies each name from the CSV file and adds it to the image (again use OpenCV and font support there to write it on the image) along with other details. The certificate should finally read:
 Award of Excellence for "COURSE NAME" Awarded to "NAME". Date 24th April 2021. Signature "FIXED NAME". You must make sure that the items are placed exactly at the location they should be and with the appropriate font size. 
-learn how to send emails using Python using this tutorial (Links to an external site.). 
-Then compose an email that:
+
+3. Then compose an email that:
 will send the final certificate to the email address
 reads another file where this email content is written:
 **Dear NAME,
@@ -22,20 +23,20 @@ We are excited to share the attached Award of Excellence for your performance!
 
 Regards**
 
-These are the things that are expected:
-your code is well documented
-your code has at least 50 test cases that test various problems that might be there. Some tests that are expected:
-regex check for emails
-can handle 1000+ emails without getting crashed 
-check if names have only characters
-checks if internet connection exists
-checks if all required (including external) packages are installed
-NAME, COURSE NAME, SCORE, TOTAL are variables and can be changed while calling your Python App
-you are using at least 2 different custom modules
-you are using at least 1 or more packages
-you are NOT using while or for loop anywhere
-you are use generators and NOT list comprehension anywhere
-you are using your OWN Iterator class for creating your name, email and scores database.
+**Expectations.**
+1. your code is well documented.
+
+2. your code has at least 50 test cases that test various problems that might be there. Some tests that are expected:
+  2.1 regex check for emails
+  2.2 can handle 1000+ emails without getting crashed 
+  2.3 check if names have only characters
+  2.4 checks if internet connection exists
+  2.5 checks if all required (including external) packages are installed
+  2.6 you are using at least 2 different custom modules
+  2.7 you are using at least 1 or more packages
+2.8 you are NOT using while or for loop anywhere
+2.9 you are use generators and NOT list comprehension anywhere
+3.0 you are using your OWN Iterator class for creating your name, email and scores database.
 you are using:
 named tuples
 Python's datetime module
