@@ -52,3 +52,9 @@ Testing was done to capture some of the common, obvious and also rare of the cor
 1. project can be called by uploading the data in the csv file(please see the data for file format under data folder)
 2. Project can be called by giving the details from command line.
 3. For both the cases there is a provision for recreate certificate is given, if you want to correct any certificate, please choose recreate as yes
+
+**Future todo**
+1. app deployment on edge devices.
+2. product specification and infra requirments
+3. costing details
+4. scale the project to be a **template agnostic** product
