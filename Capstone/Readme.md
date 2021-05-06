@@ -40,9 +40,10 @@ The directory has the following structures with the names and the files present 
            5.1 Shows the certificates which once generated are stored,this is prudent to store the certs as can be very handy in resending the scenario.
 6. Log.
             6.1 Log folder that contains the log file to capture variuos activities at different timestamp.
-           
-           
-
-
+          
 **Testing done**
-Testing was done to capture some of the common, obvious and also rare of the corner cases.
+Testing was done to capture some of the common, obvious and also rare of the corner cases like.
+1. checks internet connection before doing anything.
+2. checks if the certificate already exists in the folder, and if yes, then do not create it again.
+3. Validtes the name, marks and email.
+4. checks for authentication.
