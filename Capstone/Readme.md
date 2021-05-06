@@ -5,7 +5,7 @@ The project also aims to educate the fact that nauances are very necessary for a
 and making a modular and a high performing scalable code.
 
 **Project Decription and assumptions.**
-You are going to build a Python app that can:
+we are going to build a Python app that can:
 1. read a CSV file that has NAME, SCORE and EMAIL and send out the certificates to the students.
 2. compose an email with the predefined subject and placeholders for name, email, total marks and score.
 
@@ -31,7 +31,16 @@ The directory has the following structures with the names and the files present 
          2.1 The data folder contains of the csv file which would be uploaded.
          2.2 The blank image of the certificate which would be feteched.
 3. Test_Scripts.
-          3.1 test_coding_standards.py-> This 
+          3.1 test_coding_standards.py-> This script predominantly does the nonmenclature and standard checks.
+          3.2 Buss_validation.py-> check some of the corner cases and business validations that may very project to project.
+4. Results.
+           4.1 Results of few sample certificates.
+           4.2 Screen shot of emails sent.
+5. Out   
+           5.1 Shows the certificates which once generated are stored,this is prudent to store the certs as can be very handy in resending the scenario.
+6. Log.
+            6.1 Log folder that contains the log file to capture variuos activities at different timestamp.
+           
            
 
 
