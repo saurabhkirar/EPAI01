@@ -55,6 +55,6 @@ Testing was done to capture some of the common, obvious and also rare of the cor
 
 **Future todo**
 1. app deployment on edge devices.
-2. product specification and infra requirments
-3. costing details
+2. product specification and infra requirment docs.
+3. costing details and project estimation doc.
 4. scale the project to be a **template agnostic** product
