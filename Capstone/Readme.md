@@ -47,3 +47,8 @@ Testing was done to capture some of the common, obvious and also rare of the cor
 2. checks if the certificate already exists in the folder, and if yes, then do not create it again.
 3. Validtes the name, marks and email.
 4. checks for authentication.
+
+**Calling**
+1. project can be called by uploading the data in the csv file(please see the data for file format under data folder)
+2. Project can be called by giving the details from command line.
+3. For both the cases there is a provision for recreate certificate is given, if you want to correct any certificate, please choose recreate as yes
